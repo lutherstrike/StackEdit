@@ -2,6 +2,7 @@
 Final solution: use `latest` image from the official publisher with `root`privilege.
 
 + Mobaxterm [notes](https://blog.mobatek.net/post/how-to-keep-X11-display-after-su-or-sudo/) for open gui with `sudo`.
++ Open GUI without `root` inside the docker will cause crash/segmentation fault.
 
 Setup for network:
 + `/etc/cntlm.conf` for the proxy servive setup
@@ -32,8 +33,8 @@ docker run --rm -it \
 
 ## Flow notes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzEyNTE5NTIsLTEwNjAxMTk2NSwtNz
-M2NDI2MDAwLC0xNzY1Nzg5MTgyLC0xMjU0MDcyMzY0LC0xMTM4
-NjA4MzAyLDE0NzQ0OTY0NTgsOTM4MTk4NjY4LC0xMzQ3NDY1OT
-U1LDE2OTI5MTk2OTZdfQ==
+eyJoaXN0b3J5IjpbMTg3NTEzNjYyNCwtMTQzMTI1MTk1MiwtMT
+A2MDExOTY1LC03MzY0MjYwMDAsLTE3NjU3ODkxODIsLTEyNTQw
+NzIzNjQsLTExMzg2MDgzMDIsMTQ3NDQ5NjQ1OCw5MzgxOTg2Nj
+gsLTEzNDc0NjU5NTUsMTY5MjkxOTY5Nl19
 -->
