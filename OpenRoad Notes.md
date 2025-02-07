@@ -7,10 +7,9 @@ Setup for network:
 + `/etc/cntlm.conf` for the proxy servive setup
 + Update the docker file with proxy and huawei certificate
 
-Co
+Command to start the container from the official image (different from the doc):
 ```bash
 docker run -it \
-	     -u $(id -u ${USER}):$(id -g ${USER}) \
            -v $(pwd)/flow:/OpenROAD-flow-scripts/flow \
            -e DISPLAY=${DISPLAY} \
            -v /tmp/.X11-unix:/tmp/.X11-unix \
@@ -23,6 +22,6 @@ docker run -it \
 
 ## Flow notes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODM2NTcyMiw5MzgxOTg2NjgsLTEzND
+eyJoaXN0b3J5IjpbMTQ3NDQ5NjQ1OCw5MzgxOTg2NjgsLTEzND
 c0NjU5NTUsMTY5MjkxOTY5Nl19
 -->
