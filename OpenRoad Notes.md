@@ -9,7 +9,7 @@ Setup for network:
 
 Command to start the container from the official image (different from the doc):
 ```bash
-docker run -it \
+docker run --rm -it \
            -e DISPLAY=${DISPLAY} \
            -v /tmp/.X11-unix:/tmp/.X11-unix \
            -v ${HOME}/.Xauthority:/root/.Xauthority \
@@ -32,7 +32,7 @@ docker run --rm -it \
 
 ## Flow notes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzMzAwNTM3LC0xMTM4NjA4MzAyLDE0Nz
-Q0OTY0NTgsOTM4MTk4NjY4LC0xMzQ3NDY1OTU1LDE2OTI5MTk2
-OTZdfQ==
+eyJoaXN0b3J5IjpbLTEyNTQwNzIzNjQsLTExMzg2MDgzMDIsMT
+Q3NDQ5NjQ1OCw5MzgxOTg2NjgsLTEzNDc0NjU5NTUsMTY5Mjkx
+OTY5Nl19
 -->
