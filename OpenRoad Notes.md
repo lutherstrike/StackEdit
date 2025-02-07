@@ -6,6 +6,7 @@ Final solution: use `latest` image from the official publisher with `root`privil
 Setup for network:
 + `/etc/cntlm.conf` for the proxy servive setup
 + Update the docker file with proxy and huawei certificate
+Files backup in `~/setup`.
 
 Command to start the container from the official image (different from the doc):
 ```bash
@@ -31,7 +32,7 @@ docker run --rm -it \
 
 ## Flow notes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjU3ODkxODIsLTEyNTQwNzIzNjQsLT
-ExMzg2MDgzMDIsMTQ3NDQ5NjQ1OCw5MzgxOTg2NjgsLTEzNDc0
-NjU5NTUsMTY5MjkxOTY5Nl19
+eyJoaXN0b3J5IjpbLTczNjQyNjAwMCwtMTc2NTc4OTE4MiwtMT
+I1NDA3MjM2NCwtMTEzODYwODMwMiwxNDc0NDk2NDU4LDkzODE5
+ODY2OCwtMTM0NzQ2NTk1NSwxNjkyOTE5Njk2XX0=
 -->
