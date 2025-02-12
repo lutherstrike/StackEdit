@@ -17,7 +17,7 @@ docker run --rm -it \
            -v /tmp/.X11-unix:/tmp/.X11-unix \
            -v ${HOME}/.Xauthority:/root/.Xauthority \
            --network host \
-           --security-opt seccomp=unconfined \
+           --security-opt seccomp=unconfined \u
            openroad/flow-ubuntu22.04-builder bash
 # No need to mount the examples since the offical image already has all sources
 
@@ -36,9 +36,9 @@ docker run --rm -it \
 
 ## Flow notes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwODU2ODgyLDE4NzUxMzY2MjQsLTE0Mz
-EyNTE5NTIsLTEwNjAxMTk2NSwtNzM2NDI2MDAwLC0xNzY1Nzg5
-MTgyLC0xMjU0MDcyMzY0LC0xMTM4NjA4MzAyLDE0NzQ0OTY0NT
-gsOTM4MTk4NjY4LC0xMzQ3NDY1OTU1LDE2OTI5MTk2OTZdfQ==
-
+eyJoaXN0b3J5IjpbMzY4MDc0NTAxLDU2MDg1Njg4MiwxODc1MT
+M2NjI0LC0xNDMxMjUxOTUyLC0xMDYwMTE5NjUsLTczNjQyNjAw
+MCwtMTc2NTc4OTE4MiwtMTI1NDA3MjM2NCwtMTEzODYwODMwMi
+wxNDc0NDk2NDU4LDkzODE5ODY2OCwtMTM0NzQ2NTk1NSwxNjky
+OTE5Njk2XX0=
 -->
