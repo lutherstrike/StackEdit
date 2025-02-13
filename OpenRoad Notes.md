@@ -32,13 +32,14 @@ docker run --rm -it \
            openroad/flow-ubuntu22.04-builder bash
 ```
 **Chisel**
-
+Chisel is a Scala lib and Scala-cli is using JVM. 
+However, after adding huawei certificates to its default truststore, it's not using it correctly. You have to 
 
 ## Flow notes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4MDc0NTAxLDU2MDg1Njg4MiwxODc1MT
-M2NjI0LC0xNDMxMjUxOTUyLC0xMDYwMTE5NjUsLTczNjQyNjAw
-MCwtMTc2NTc4OTE4MiwtMTI1NDA3MjM2NCwtMTEzODYwODMwMi
-wxNDc0NDk2NDU4LDkzODE5ODY2OCwtMTM0NzQ2NTk1NSwxNjky
-OTE5Njk2XX0=
+eyJoaXN0b3J5IjpbMjExOTIxNTEwNywzNjgwNzQ1MDEsNTYwOD
+U2ODgyLDE4NzUxMzY2MjQsLTE0MzEyNTE5NTIsLTEwNjAxMTk2
+NSwtNzM2NDI2MDAwLC0xNzY1Nzg5MTgyLC0xMjU0MDcyMzY0LC
+0xMTM4NjA4MzAyLDE0NzQ0OTY0NTgsOTM4MTk4NjY4LC0xMzQ3
+NDY1OTU1LDE2OTI5MTk2OTZdfQ==
 -->
