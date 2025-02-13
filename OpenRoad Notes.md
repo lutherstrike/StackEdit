@@ -39,13 +39,14 @@ ty/cacerts"`
 (its stupid, why!!!!!)
 
 Downloading of `firtool` is timed out some unknown reason. 
-Installing `firtool` binary manually. Different Chisel versions have different minimum version of Firtool requirement. Latest Firtool should be engouth.
+Installing `firtool` binary manually. Different Chisel versions have different minimum version of Firtool requirement. Latest Firtool should be enough. Firtool is FIRRTL (Flexible Intermediate Representation for RTL) compiler of CIRCT,  so it depends on LLVM/MLIR
 ## Flow notes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODczNzc2OSwtMjAxNTc2NzM4OCwxNT
-I4NDQzODQwLDEyMjE5NDE5MjIsMjQ5OTgyODAwLDM2ODA3NDUw
-MSw1NjA4NTY4ODIsMTg3NTEzNjYyNCwtMTQzMTI1MTk1MiwtMT
-A2MDExOTY1LC03MzY0MjYwMDAsLTE3NjU3ODkxODIsLTEyNTQw
-NzIzNjQsLTExMzg2MDgzMDIsMTQ3NDQ5NjQ1OCw5MzgxOTg2Nj
-gsLTEzNDc0NjU5NTUsMTY5MjkxOTY5Nl19
+eyJoaXN0b3J5IjpbNjY0MjY5MTI4LDIwMjg3Mzc3NjksLTIwMT
+U3NjczODgsMTUyODQ0Mzg0MCwxMjIxOTQxOTIyLDI0OTk4Mjgw
+MCwzNjgwNzQ1MDEsNTYwODU2ODgyLDE4NzUxMzY2MjQsLTE0Mz
+EyNTE5NTIsLTEwNjAxMTk2NSwtNzM2NDI2MDAwLC0xNzY1Nzg5
+MTgyLC0xMjU0MDcyMzY0LC0xMTM4NjA4MzAyLDE0NzQ0OTY0NT
+gsOTM4MTk4NjY4LC0xMzQ3NDY1OTU1LDE2OTI5MTk2OTZdfQ==
+
 -->
