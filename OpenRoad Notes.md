@@ -33,13 +33,15 @@ docker run --rm -it \
 ```
 **Chisel**
 Chisel is a Scala lib and Scala-cli is using JVM. 
-However, after adding huawei certificates to its default truststore, it's not using it correctly. You have to 
+However, after adding huawei certificates to its default truststore, it's not using it correctly. You have to add env variable like this (or java parameter):
+`export JAVA_OPTS="-Djavax.net.ssl.trustStore=/usr/lib/jvm/java-21-openjdk-amd64/lib/security/cacerts"`
+(its stupid, why!!!!!)
 
 ## Flow notes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTIxNTEwNywzNjgwNzQ1MDEsNTYwOD
-U2ODgyLDE4NzUxMzY2MjQsLTE0MzEyNTE5NTIsLTEwNjAxMTk2
-NSwtNzM2NDI2MDAwLC0xNzY1Nzg5MTgyLC0xMjU0MDcyMzY0LC
-0xMTM4NjA4MzAyLDE0NzQ0OTY0NTgsOTM4MTk4NjY4LC0xMzQ3
-NDY1OTU1LDE2OTI5MTk2OTZdfQ==
+eyJoaXN0b3J5IjpbMjQ5OTgyODAwLDM2ODA3NDUwMSw1NjA4NT
+Y4ODIsMTg3NTEzNjYyNCwtMTQzMTI1MTk1MiwtMTA2MDExOTY1
+LC03MzY0MjYwMDAsLTE3NjU3ODkxODIsLTEyNTQwNzIzNjQsLT
+ExMzg2MDgzMDIsMTQ3NDQ5NjQ1OCw5MzgxOTg2NjgsLTEzNDc0
+NjU5NTUsMTY5MjkxOTY5Nl19
 -->
