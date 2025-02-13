@@ -39,13 +39,14 @@ ty/cacerts"`
 (its stupid, why!!!!!)
 
 Downloading of `firtool` is timed out some unknown reason. 
-Installing `firtool` manually.
+Installing `firtool` manually. Different Chisel versions have different minimum version of Firtool requirement. 
+
 ## Flow notes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODQ0Mzg0MCwxMjIxOTQxOTIyLDI0OT
-k4MjgwMCwzNjgwNzQ1MDEsNTYwODU2ODgyLDE4NzUxMzY2MjQs
-LTE0MzEyNTE5NTIsLTEwNjAxMTk2NSwtNzM2NDI2MDAwLC0xNz
-Y1Nzg5MTgyLC0xMjU0MDcyMzY0LC0xMTM4NjA4MzAyLDE0NzQ0
-OTY0NTgsOTM4MTk4NjY4LC0xMzQ3NDY1OTU1LDE2OTI5MTk2OT
-ZdfQ==
+eyJoaXN0b3J5IjpbLTIwMTU3NjczODgsMTUyODQ0Mzg0MCwxMj
+IxOTQxOTIyLDI0OTk4MjgwMCwzNjgwNzQ1MDEsNTYwODU2ODgy
+LDE4NzUxMzY2MjQsLTE0MzEyNTE5NTIsLTEwNjAxMTk2NSwtNz
+M2NDI2MDAwLC0xNzY1Nzg5MTgyLC0xMjU0MDcyMzY0LC0xMTM4
+NjA4MzAyLDE0NzQ0OTY0NTgsOTM4MTk4NjY4LC0xMzQ3NDY1OT
+U1LDE2OTI5MTk2OTZdfQ==
 -->
