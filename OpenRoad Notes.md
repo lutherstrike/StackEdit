@@ -38,11 +38,14 @@ However, after adding huawei certificates to its default truststore, it's not us
 ty/cacerts"`
 (its stupid, why!!!!!)
 
+Downloading of `firtool` is timed out some unknown reason. 
+Installing `firtool` manually.
 ## Flow notes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTk0MTkyMiwyNDk5ODI4MDAsMzY4MD
-c0NTAxLDU2MDg1Njg4MiwxODc1MTM2NjI0LC0xNDMxMjUxOTUy
-LC0xMDYwMTE5NjUsLTczNjQyNjAwMCwtMTc2NTc4OTE4MiwtMT
-I1NDA3MjM2NCwtMTEzODYwODMwMiwxNDc0NDk2NDU4LDkzODE5
-ODY2OCwtMTM0NzQ2NTk1NSwxNjkyOTE5Njk2XX0=
+eyJoaXN0b3J5IjpbMTUyODQ0Mzg0MCwxMjIxOTQxOTIyLDI0OT
+k4MjgwMCwzNjgwNzQ1MDEsNTYwODU2ODgyLDE4NzUxMzY2MjQs
+LTE0MzEyNTE5NTIsLTEwNjAxMTk2NSwtNzM2NDI2MDAwLC0xNz
+Y1Nzg5MTgyLC0xMjU0MDcyMzY0LC0xMTM4NjA4MzAyLDE0NzQ0
+OTY0NTgsOTM4MTk4NjY4LC0xMzQ3NDY1OTU1LDE2OTI5MTk2OT
+ZdfQ==
 -->
