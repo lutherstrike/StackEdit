@@ -1,5 +1,6 @@
 ## Installation
 **OpenRoad**
+
 Final solution: use `latest` image from the official publisher with `root`privilege.
 
 + Mobaxterm [notes](https://blog.mobatek.net/post/how-to-keep-X11-display-after-su-or-sudo/) for open gui with `sudo`.
@@ -53,11 +54,11 @@ export CHISEL_FIRTOOL_PATH=/home/xingyu/tools/circt/build/bin
 
 ## Flow notes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTI2NjA0NTcsLTc3Mjg1MzQ0NSw2Nj
-QyNjkxMjgsMjAyODczNzc2OSwtMjAxNTc2NzM4OCwxNTI4NDQz
-ODQwLDEyMjE5NDE5MjIsMjQ5OTgyODAwLDM2ODA3NDUwMSw1Nj
-A4NTY4ODIsMTg3NTEzNjYyNCwtMTQzMTI1MTk1MiwtMTA2MDEx
-OTY1LC03MzY0MjYwMDAsLTE3NjU3ODkxODIsLTEyNTQwNzIzNj
-QsLTExMzg2MDgzMDIsMTQ3NDQ5NjQ1OCw5MzgxOTg2NjgsLTEz
-NDc0NjU5NTVdfQ==
+eyJoaXN0b3J5IjpbMTQ2MTQxNzQxMywtNzcyODUzNDQ1LDY2ND
+I2OTEyOCwyMDI4NzM3NzY5LC0yMDE1NzY3Mzg4LDE1Mjg0NDM4
+NDAsMTIyMTk0MTkyMiwyNDk5ODI4MDAsMzY4MDc0NTAxLDU2MD
+g1Njg4MiwxODc1MTM2NjI0LC0xNDMxMjUxOTUyLC0xMDYwMTE5
+NjUsLTczNjQyNjAwMCwtMTc2NTc4OTE4MiwtMTI1NDA3MjM2NC
+wtMTEzODYwODMwMiwxNDc0NDk2NDU4LDkzODE5ODY2OCwtMTM0
+NzQ2NTk1NV19
 -->
