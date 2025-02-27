@@ -32,10 +32,10 @@ docker run --rm -it \
            openroad/flow-ubuntu22.04-builder bash
 ```
 **Chisel**
+
 Chisel is a Scala lib and Scala-cli is using JVM. 
 However, after adding huawei certificates to its default truststore, it's not using it correctly. You have to add env variable like this (or java parameter):
-`export JAVA_OPTS="-Djavax.net.ssl.trustStore=/usr/lib/jvm/java-21-openjdk-amd64/lib/securi
-ty/cacerts"`
+`export JAVA_OPTS="-Djavax.net.ssl.trustStore=/usr/lib/jvm/java-21-openjdk-amd64/lib/security/cacerts"`
 (its stupid, why!!!!!)
 
 Downloading of `firtool` is timed out some unknown reason. 
@@ -53,11 +53,11 @@ export CHISEL_FIRTOOL_PATH=/home/xingyu/tools/circt/build/bin
 
 ## Flow notes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Mjg1MzQ0NSw2NjQyNjkxMjgsMjAyOD
-czNzc2OSwtMjAxNTc2NzM4OCwxNTI4NDQzODQwLDEyMjE5NDE5
-MjIsMjQ5OTgyODAwLDM2ODA3NDUwMSw1NjA4NTY4ODIsMTg3NT
-EzNjYyNCwtMTQzMTI1MTk1MiwtMTA2MDExOTY1LC03MzY0MjYw
-MDAsLTE3NjU3ODkxODIsLTEyNTQwNzIzNjQsLTExMzg2MDgzMD
-IsMTQ3NDQ5NjQ1OCw5MzgxOTg2NjgsLTEzNDc0NjU5NTUsMTY5
-MjkxOTY5Nl19
+eyJoaXN0b3J5IjpbLTE5MTI2NjA0NTcsLTc3Mjg1MzQ0NSw2Nj
+QyNjkxMjgsMjAyODczNzc2OSwtMjAxNTc2NzM4OCwxNTI4NDQz
+ODQwLDEyMjE5NDE5MjIsMjQ5OTgyODAwLDM2ODA3NDUwMSw1Nj
+A4NTY4ODIsMTg3NTEzNjYyNCwtMTQzMTI1MTk1MiwtMTA2MDEx
+OTY1LC03MzY0MjYwMDAsLTE3NjU3ODkxODIsLTEyNTQwNzIzNj
+QsLTExMzg2MDgzMDIsMTQ3NDQ5NjQ1OCw5MzgxOTg2NjgsLTEz
+NDc0NjU5NTVdfQ==
 -->
