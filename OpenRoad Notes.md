@@ -52,9 +52,10 @@ export PATH=$PATH:/home/xingyu/tools/circt/build/bin
 export CHISEL_FIRTOOL_PATH=/home/xingyu/tools/circt/build/bin
 ```
 
-## Flow notes 
+## Flow notes
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTQxNzQxMywtNzcyODUzNDQ1LDY2ND
+eyJoaXN0b3J5IjpbMjEwNTA2NjY4NSwtNzcyODUzNDQ1LDY2ND
 I2OTEyOCwyMDI4NzM3NzY5LC0yMDE1NzY3Mzg4LDE1Mjg0NDM4
 NDAsMTIyMTk0MTkyMiwyNDk5ODI4MDAsMzY4MDc0NTAxLDU2MD
 g1Njg4MiwxODc1MTM2NjI0LC0xNDMxMjUxOTUyLC0xMDYwMTE5
