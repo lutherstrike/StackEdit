@@ -24,7 +24,7 @@ docker run --rm -it \
 
 #defualt comand
 docker run --rm -it \
-           -v $(pwd)/flow:/OpenROAD-flow-scripts/flow \
+           dddddddddddd-v $(pwd)/flow:/OpenROAD-flow-scripts/flow \
            -e DISPLAY=${DISPLAY} \
            -v /tmp/.X11-unix:/tmp/.X11-unix \
            -v ${HOME}/.Xauthority:/root/.Xauthority \
@@ -55,11 +55,11 @@ export CHISEL_FIRTOOL_PATH=/home/xingyu/tools/circt/build/bin
 ## Flow notes
 bnhbgbb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTkwMzQ2MiwxNDU3MjI5NjIyLDIxMD
-UwNjY2ODUsLTc3Mjg1MzQ0NSw2NjQyNjkxMjgsMjAyODczNzc2
-OSwtMjAxNTc2NzM4OCwxNTI4NDQzODQwLDEyMjE5NDE5MjIsMj
-Q5OTgyODAwLDM2ODA3NDUwMSw1NjA4NTY4ODIsMTg3NTEzNjYy
-NCwtMTQzMTI1MTk1MiwtMTA2MDExOTY1LC03MzY0MjYwMDAsLT
-E3NjU3ODkxODIsLTEyNTQwNzIzNjQsLTExMzg2MDgzMDIsMTQ3
-NDQ5NjQ1OF19
+eyJoaXN0b3J5IjpbMTczMzMzMzM1MCwxMjY1OTAzNDYyLDE0NT
+cyMjk2MjIsMjEwNTA2NjY4NSwtNzcyODUzNDQ1LDY2NDI2OTEy
+OCwyMDI4NzM3NzY5LC0yMDE1NzY3Mzg4LDE1Mjg0NDM4NDAsMT
+IyMTk0MTkyMiwyNDk5ODI4MDAsMzY4MDc0NTAxLDU2MDg1Njg4
+MiwxODc1MTM2NjI0LC0xNDMxMjUxOTUyLC0xMDYwMTE5NjUsLT
+czNjQyNjAwMCwtMTc2NTc4OTE4MiwtMTI1NDA3MjM2NCwtMTEz
+ODYwODMwMl19
 -->
