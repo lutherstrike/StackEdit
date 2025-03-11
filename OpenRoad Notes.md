@@ -53,12 +53,15 @@ export CHISEL_FIRTOOL_PATH=/home/xingyu/tools/circt/build/bin
 ```
 
 ## Flow notes
+
+
+docker run --rm -it \ -e DISPLAY=${DISPLAY} \ -v /tmp/.X11-unix:/tmp/.X11-unix \ -v ${HOME}/.Xauthority:/root/.Xauthority \ --network host \ --security-opt seccomp=unconfined \u openroad/flow-ubuntu22.04-builder:6be2c2 bash
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjM2OTA1NSwxMjY1OTAzNDYyLDE3Mz
-MzMzMzNTAsMTI2NTkwMzQ2MiwxNDU3MjI5NjIyLDIxMDUwNjY2
-ODUsLTc3Mjg1MzQ0NSw2NjQyNjkxMjgsMjAyODczNzc2OSwtMj
-AxNTc2NzM4OCwxNTI4NDQzODQwLDEyMjE5NDE5MjIsMjQ5OTgy
-ODAwLDM2ODA3NDUwMSw1NjA4NTY4ODIsMTg3NTEzNjYyNCwtMT
-QzMTI1MTk1MiwtMTA2MDExOTY1LC03MzY0MjYwMDAsLTE3NjU3
-ODkxODJdfQ==
+eyJoaXN0b3J5IjpbMjA3NTU1MjkxNCwxMDY2MzY5MDU1LDEyNj
+U5MDM0NjIsMTczMzMzMzM1MCwxMjY1OTAzNDYyLDE0NTcyMjk2
+MjIsMjEwNTA2NjY4NSwtNzcyODUzNDQ1LDY2NDI2OTEyOCwyMD
+I4NzM3NzY5LC0yMDE1NzY3Mzg4LDE1Mjg0NDM4NDAsMTIyMTk0
+MTkyMiwyNDk5ODI4MDAsMzY4MDc0NTAxLDU2MDg1Njg4MiwxOD
+c1MTM2NjI0LC0xNDMxMjUxOTUyLC0xMDYwMTE5NjUsLTczNjQy
+NjAwMF19
 -->
