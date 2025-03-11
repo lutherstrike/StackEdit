@@ -53,23 +53,13 @@ export CHISEL_FIRTOOL_PATH=/home/xingyu/tools/circt/build/bin
 ```
 
 ## Flow notes
-
-
-docker run --rm -it \ -e DISPLAY=${DISPLAY} \ -v /tmp/.X11-unix:/tmp/.X11-unix \ -v ${HOME}/.Xauthority:/root/.Xauthority \ --network host \ --security-opt seccomp=unconfined \u openroad/flow-ubuntu22.04-builder:6be2c2 bash
-
-docker run --rm -it \
-           -e DISPLAY=${DISPLAY} \
-           -v /tmp/.X11-unix:/tmp/.X11-unix \
-           -v ${HOME}/.Xauthority:/root/.Xauthority \
-           --network host \
-           --security-opt seccomp=unconfined \
-           openroad/flow-ubuntu22.04-builder:6be2c2 bash
+OpenRoad test with customized Verilog code
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzUxNTk3MywxMDY2MzY5MDU1LDEyNj
-U5MDM0NjIsMTczMzMzMzM1MCwxMjY1OTAzNDYyLDE0NTcyMjk2
-MjIsMjEwNTA2NjY4NSwtNzcyODUzNDQ1LDY2NDI2OTEyOCwyMD
-I4NzM3NzY5LC0yMDE1NzY3Mzg4LDE1Mjg0NDM4NDAsMTIyMTk0
-MTkyMiwyNDk5ODI4MDAsMzY4MDc0NTAxLDU2MDg1Njg4MiwxOD
-c1MTM2NjI0LC0xNDMxMjUxOTUyLC0xMDYwMTE5NjUsLTczNjQy
-NjAwMF19
+eyJoaXN0b3J5IjpbMTc1Mzc3MjA0OCwxMzE3NTE1OTczLDEwNj
+YzNjkwNTUsMTI2NTkwMzQ2MiwxNzMzMzMzMzUwLDEyNjU5MDM0
+NjIsMTQ1NzIyOTYyMiwyMTA1MDY2Njg1LC03NzI4NTM0NDUsNj
+Y0MjY5MTI4LDIwMjg3Mzc3NjksLTIwMTU3NjczODgsMTUyODQ0
+Mzg0MCwxMjIxOTQxOTIyLDI0OTk4MjgwMCwzNjgwNzQ1MDEsNT
+YwODU2ODgyLDE4NzUxMzY2MjQsLTE0MzEyNTE5NTIsLTEwNjAx
+MTk2NV19
 -->
