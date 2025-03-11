@@ -18,7 +18,7 @@ docker run --rm -it \
            -v /tmp/.X11-unix:/tmp/.X11-unix \
            -v ${HOME}/.Xauthority:/root/.Xauthority \
            --network host \
-           --security-opt seccomp=unconfined \u
+           --security-opt seccomp=unconfined 
            openroad/flow-ubuntu22.04-builder bash
 # No need to mount the examples since the offical image already has all sources
 
@@ -56,8 +56,16 @@ export CHISEL_FIRTOOL_PATH=/home/xingyu/tools/circt/build/bin
 
 
 docker run --rm -it \ -e DISPLAY=${DISPLAY} \ -v /tmp/.X11-unix:/tmp/.X11-unix \ -v ${HOME}/.Xauthority:/root/.Xauthority \ --network host \ --security-opt seccomp=unconfined \u openroad/flow-ubuntu22.04-builder:6be2c2 bash
+
+docker run --rm -it \
+           -e DISPLAY=${DISPLAY} \
+           -v /tmp/.X11-unix:/tmp/.X11-unix \
+           -v ${HOME}/.Xauthority:/root/.Xauthority \
+           --network host \
+           --security-opt seccomp=unconfined 
+           openroad/flow-ubuntu22.04-builder:6be2c2 bash
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTU1MjkxNCwxMDY2MzY5MDU1LDEyNj
+eyJoaXN0b3J5IjpbMTU2MDExMjU4MSwxMDY2MzY5MDU1LDEyNj
 U5MDM0NjIsMTczMzMzMzM1MCwxMjY1OTAzNDYyLDE0NTcyMjk2
 MjIsMjEwNTA2NjY4NSwtNzcyODUzNDQ1LDY2NDI2OTEyOCwyMD
 I4NzM3NzY5LC0yMDE1NzY3Mzg4LDE1Mjg0NDM4NDAsMTIyMTk0
